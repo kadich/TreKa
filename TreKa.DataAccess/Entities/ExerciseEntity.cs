@@ -22,6 +22,7 @@ namespace TreKa.DataAccess.Entities
         [Required]
         public int Repetition { get; set; }
 
+
         [ForeignKey(nameof(CategoryId))]
         public virtual CategoryEntity Category { get; set; }
     }
