@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreKa", "TreKa\TreKa.csproj", "{62F87171-AB2A-4FA7-9668-972A2A744B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreKa.DataAccess", "TreKa.DataAccess\TreKa.DataAccess.csproj", "{A53B5896-6A50-4D59-B39A-ADF35DE62AF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F87171-AB2A-4FA7-9668-972A2A744B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F87171-AB2A-4FA7-9668-972A2A744B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F87171-AB2A-4FA7-9668-972A2A744B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F87171-AB2A-4FA7-9668-972A2A744B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53B5896-6A50-4D59-B39A-ADF35DE62AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53B5896-6A50-4D59-B39A-ADF35DE62AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53B5896-6A50-4D59-B39A-ADF35DE62AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53B5896-6A50-4D59-B39A-ADF35DE62AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4B1A87E-3757-4AC8-B418-6C0CFA2CBC33}
+	EndGlobalSection
+EndGlobal

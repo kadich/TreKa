@@ -1,0 +1,35 @@
+﻿@model TreKa.Models.OptionsModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CrassFat</title>
+</head>
+<body>
+    @using (Html.BeginForm("GetExercises", "Exercise", FormMethod.Post))
+    {
+        <p>Ваш возраст: @Html.TextBoxFor(x => x.Age) </p>
+        <p>Ваш рост: @Html.TextBoxFor(x => x.Height) </p>
+        <p>Ваш вес: @Html.TextBoxFor(x => x.Weight) </p>
+        <p>Уровень Вашей подготовки: </p>
+        <p>@Html.DropDownListFor(d => d.СoefficientOfSelectedLevel, new SelectList(Model.Level, "Сoefficient", "Name"))</p>
+        <p>Группы мышц для составления сета:</p>
+        for (var i = 0; i < Model.CategoryItems.Count; i++)
+        {
+            <p>
+                @Html.HiddenFor(x => x.CategoryItems[i].Id)
+                <label>@Model.CategoryItems[i].Name</label>
+                @Html.CheckBoxFor(x => x.CategoryItems[i].IsSelected)
+            </p>
+        }
+
+        <input type="submit" value="Составить сет" />
+    }
+</body>
+</html>
