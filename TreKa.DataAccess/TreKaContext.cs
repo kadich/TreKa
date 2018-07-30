@@ -14,7 +14,6 @@ namespace TreKa.DataAccess
             :base("LSS")
         { }
 
-        public DbSet<UserOrderEntity> UserOrders { get; set; }
         public DbSet<ExerciseEntity> Exercises { get; set; }
         public DbSet<CategoryEntity> Categories { get; set; }
     }

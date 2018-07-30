@@ -17,11 +17,10 @@ namespace TreKa.DataAccess.Entities
         [MaxLength(100), Required]
         public string ExerciseName { get; set; }
 
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
 
         [Required]
         public int Repetition { get; set; }
-
 
         [ForeignKey(nameof(CategoryId))]
         public virtual CategoryEntity Category { get; set; }

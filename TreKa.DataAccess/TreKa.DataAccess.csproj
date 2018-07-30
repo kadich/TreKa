@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="Entities\CategoryEntity.cs" />
     <Compile Include="Entities\ExerciseEntity.cs" />
-    <Compile Include="Entities\UserOrderEntity.cs" />
     <Compile Include="Migrations\201805191457181_Added-UserOrders-Table.cs" />
     <Compile Include="Migrations\201805191457181_Added-UserOrders-Table.Designer.cs">
       <DependentUpon>201805191457181_Added-UserOrders-Table.cs</DependentUpon>
@@ -102,6 +101,14 @@
     <Compile Include="Migrations\201805270708163_Changed-In-CategoryId-Type-MayBeNull-On-NotNull.Designer.cs">
       <DependentUpon>201805270708163_Changed-In-CategoryId-Type-MayBeNull-On-NotNull.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806170448329_Deleted-Usless-Entity-UserOrder.cs" />
+    <Compile Include="Migrations\201806170448329_Deleted-Usless-Entity-UserOrder.Designer.cs">
+      <DependentUpon>201806170448329_Deleted-Usless-Entity-UserOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806170506178_Changed-In-CategoryId-Type-NotNull-On-MayBeNull.cs" />
+    <Compile Include="Migrations\201806170506178_Changed-In-CategoryId-Type-NotNull-On-MayBeNull.Designer.cs">
+      <DependentUpon>201806170506178_Changed-In-CategoryId-Type-NotNull-On-MayBeNull.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TreKaContext.cs" />
@@ -149,6 +156,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805270708163_Changed-In-CategoryId-Type-MayBeNull-On-NotNull.resx">
       <DependentUpon>201805270708163_Changed-In-CategoryId-Type-MayBeNull-On-NotNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806170448329_Deleted-Usless-Entity-UserOrder.resx">
+      <DependentUpon>201806170448329_Deleted-Usless-Entity-UserOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806170506178_Changed-In-CategoryId-Type-NotNull-On-MayBeNull.resx">
+      <DependentUpon>201806170506178_Changed-In-CategoryId-Type-NotNull-On-MayBeNull.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

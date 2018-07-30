@@ -23,3 +23,5 @@ C:\Users\kadic\source\repos\TreKa\TreKa.DataAccess\obj\Debug\TreKa.DataAccess.Mi
 C:\Users\kadic\source\repos\TreKa\TreKa.DataAccess\obj\Debug\TreKa.DataAccess.Migrations.СhangedCategoryIdNotNullOnMayBeNull.resources
 C:\Users\kadic\source\repos\TreKa\TreKa.DataAccess\obj\Debug\TreKa.DataAccess.Migrations.AddedHeightDeleteAmountOfDaysAddedMuscleGroups.resources
 C:\Users\kadic\source\repos\TreKa\TreKa.DataAccess\obj\Debug\TreKa.DataAccess.Migrations.ChangedInCategoryIdTypeMayBeNullOnNotNull.resources
+C:\Users\kadic\source\repos\TreKa\TreKa.DataAccess\obj\Debug\TreKa.DataAccess.Migrations.DeletedUslessEntitiesUserOrder.resources
+C:\Users\kadic\source\repos\TreKa\TreKa.DataAccess\obj\Debug\TreKa.DataAccess.Migrations.ChangedInCategoryIdTypeNotNullOnMayBeNull.resources

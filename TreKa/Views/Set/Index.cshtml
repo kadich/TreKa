@@ -1,22 +1,57 @@
 ﻿
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml"; ;
 }
 
-<!DOCTYPE html>
-
-<html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>Главная страница</title>
 </head>
-<body>
-    <div>
-        <p>
-            Добро пожаловать!<br />
-            Что вас привело сюда?
-        </p>
-        @Html.ActionLink("Crass Fat", "CrassFat")
+
+<div class="big-picture">
+    <div class="title-block">
+        Сайт для создания программ тренировок
     </div>
-</body>
-</html>
+</div>
+
+<div class="cells">
+    <a href="http://localhost:63128/Set/CrassFat">
+        <div class="small-picture">
+            <div class="set-name">
+                AMRAP
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="small-picture">
+            <div class="set-name">
+                FOR TIME
+                <br />
+                (в разработке)
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="small-picture">
+            <div class="set-name">
+                Tabata
+                <br />
+                (в разработке)
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="small-picture">
+            <div class="set-name">
+                EMOM
+                <br />
+                (в разработке)
+            </div>
+        </div>
+    </a>
+</div>
+
+@*<div>
+    Добро пожаловать!<br />
+    Что вас привело сюда?<br />
+    @Html.ActionLink("Crass Fat", "CrassFat")
+</div>*@
