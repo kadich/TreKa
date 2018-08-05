@@ -106,6 +106,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\CrassFat.mdf" />
+    <Content Include="App_Data\CrassFat_log.ldf">
+      <DependentUpon>CrassFat.mdf</DependentUpon>
+    </Content>
     <Content Include="css\Index.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\big picture.jpg" />
@@ -138,9 +142,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\TreKa.DataAccess\TreKa.DataAccess.csproj">
       <Project>{a53b5896-6a50-4d59-b39a-adf35de62af9}</Project>
