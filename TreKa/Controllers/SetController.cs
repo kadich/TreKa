@@ -48,7 +48,6 @@ namespace TreKa.Controllers
         [HttpPost]
         public ActionResult CrassFat(OptionsModel options) //сюда передаю данные польз-ля
         {
-            var errors = ModelState.Values.SelectMany(v => v.Errors);
             if (!ModelState.IsValid)
             {
                 return CrassFat();
